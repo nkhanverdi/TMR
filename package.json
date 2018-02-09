@@ -1,0 +1,16 @@
+{
+    "page": [
+        {
+            "name": "Schedule"
+        },
+        {
+            "name": "Weather"
+        },
+        {
+            "name": "Affirmation"
+        }
+    ],
+    "dependencies": {
+        "glob": "^7.1.2"
+    }
+}

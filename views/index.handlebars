@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Skeleton Main Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<div class="container">
+    <!-- h1 through h6 are headers. The higher the number, the smaller the header -->
+    <!-- p means paragraph -->
+    <div class="jumbotron">
+      <h1>Good Evening, Neda</h1>
+    </div>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+		<link href="css/introHCI.css" rel="stylesheet">
+
+
+    <!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
+    <!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
+    <!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
+
+<!--
+  {{#each friends}}
+	<div class="page">
+		<h3><a href="#">{{name}}</a></h3>
+		<hr />
+	</div>
+  {{/each}}
+
+-->
+
+    <div class="page" id="page1">
+      <a href="schedule">
+        <p>Schedule</p>
+      </a>
+    </div>
+
+    <div class="page" id="page2">
+      <a href="weather" class="thumbnail">
+        <p>Weather</p>
+      </a>
+    </div>
+
+    <div class="page" id="page3">
+      <a href="affirmation" class="thumbnail">
+        <p>Affirmation</p>
+      </a>
+    </div>
+
+		<div class="page" id="page3">
+      <a href="savedRecap" class="thumbnail">
+        <p>Saved Recaps</p>
+      </a>
+    </div>
+
+
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/schedule.js"></script>
+
+</body>
+</html>
