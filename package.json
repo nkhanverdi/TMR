@@ -1,20 +1,25 @@
 {
-    "page": [
-        {
-            "name": "Schedule"
-        },
-        {
-            "name": "Weather"
-        },
-        {
-            "name": "Affirmation"
-        }
-    ],
-    "dependencies": {
-        "glob": "7.1.2"
-    },
-    "engines": {
-        "node": "8.9.4",
-        "npm": "5.6.0"
-    }
+  "name": "IntroHCI",
+  "version": "0.0.1",
+  "author": "Intro HCI Staff",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IntroHCI/lab4"
+  },
+  "license": "MIT",
+
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "express3-handlebars": "*",
+    "mongodb": "*",
+    "mongoose": "*"
+  },
+  "engines": {
+    "node": "8.9.4"
+  }  
 }
